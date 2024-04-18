@@ -7,7 +7,7 @@ import 'package:silent_signal/screens/login.dart';
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: '/delete',
+    initialRoute: '/register',
     routes: {
       '/login': (context) => const Login(),
       '/register': (context) => const Register(),

@@ -63,9 +63,9 @@ class Login extends StatelessWidget {
                           ),
                         ),
                       ),
-                      const SizedBox(height: 5),
-                      GestureDetector(
-                        onTap: () {
+                      const SizedBox(height: 10),
+                      TextButton(
+                        onPressed: () {
                           Navigator.pushNamed(context, '/register');
                         },
                         child: const Text('Clique aqui para se Cadastrar'),
